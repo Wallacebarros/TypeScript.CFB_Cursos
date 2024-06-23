@@ -1,9 +1,9 @@
-var Test = /** @class */ (function () {
-    function Test(nome) {
-        this.nome = null;
+"use strict";
+class Test {
+    nome = null;
+    constructor(nome) {
         this.nome = nome;
     }
-    return Test;
-}());
-var test = new Test("nome test");
+}
+const test = new Test("nome test");
 console.log(test);
